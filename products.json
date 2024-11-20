@@ -1,20 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "price": 100
+    "name": "Wireless Mouse",
+    "price": 25
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "price": 150
+    "name": "Gaming Keyboard",
+    "price": 75
   },
   {
-    "id": 1729977466296
-  },
-  {
-    "id": 1729981640215,
-    "name": "asd",
+    "id": 3,
+    "name": "Noise-Cancelling Headphones",
     "price": 199
+  },
+  {
+    "id": 4,
+    "name": "4K Ultra HD TV",
+    "price": 999
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "price": 699
+  },
+  {
+    "id": 6,
+    "name": "Laptop Stand",
+    "price": 45
+  },
+  {
+    "id": 7,
+    "name": "External SSD Drive",
+    "price": 149
+  },
+  {
+    "id": 1732126419521,
+    "name": "TV",
+    "price": 999
   }
 ]

@@ -41,7 +41,10 @@ app.post('/products', (req, res) => {
     }
 
     const products = readProducts();
-    const newProduct = { id: Date.now(), name: name.trim(), price };
+    const maxId = products.reduce((max, product) => (product.id > max ? product.id : max), 0);
+    const newId = maxId + 1;
+
+    const newProduct = { id: newId, name: name.trim(), price };
     products.push(newProduct);
     writeProducts(products);
     res.status(201).json(newProduct);
